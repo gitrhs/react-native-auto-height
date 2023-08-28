@@ -1,7 +1,7 @@
 # react-native-auto-height
 this code aims to set image height to auto
 
-##Step by Step
+## Step by Step
 
 1. create images variable to store the image
 ```
@@ -45,7 +45,7 @@ useEffect(() => {
 ```
 
 
-##Full Code Example:
+## Full Code Example:
 ```
 import React, { useState, useEffect } from 'react';
 const autoResize = () => {
