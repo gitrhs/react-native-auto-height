@@ -12,10 +12,10 @@ const images = [
 ];
 ```
 2. create aspect ratio variable
+> Set aspectRatio = 1 (1:1), it will be the temporary aspect ratio before the real value counted
 ```
 const [aspectRatios, setAspectRatios] = useState(images.map(() => 1));
 ```
-> Set aspectRatio 1 (1:1), it will be the temporary aspect ratio before the real value counted
 3. Find the real aspect ratio with useEffect
 ```
 useEffect(() => {
