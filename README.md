@@ -2,6 +2,7 @@
 this code aims to set image height to auto
 
 ##Step by Step
+
 1. create images variable to store the image
   ```
     const images = [
